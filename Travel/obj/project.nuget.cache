@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cUpWo11NTXw6XBiaOhE5ypCxabJUvXCL4NYLoZ1Hx/DydeQ9fI7PTn6s1HpzqASoLXeyRBtJxMOCxJSFtsiD0g==",
+  "dgSpecHash": "gGraVeW/49f3ifvOHosPmw73glagp6GpN2OpsVM2WGTWoIKyb7PQxoeK2Y4tHI3C2/eEfreoXLIg5Uup9yVxQA==",
   "success": true,
   "projectFilePath": "/Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-six/Travel.Solution/Travel/Travel.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,8 @@
     "/Users/ramenimo/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.1/pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

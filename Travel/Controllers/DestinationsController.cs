@@ -23,6 +23,17 @@ namespace Travel.Controllers
       var list = await _db.Destintations.ToListAsync();
       return list; 
     }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Destination>> GetDesination(int id)
+    {
+      var destination = await _db.Destintations.FindAsync(id);
+      if(destination == null )
+      {
+        return NotFound();
+      }
+      return destination;
+    }
     [HttpPost]
     public async Task<ActionResult<Destination>> Post(Destination destination)
     {
@@ -32,7 +43,7 @@ namespace Travel.Controllers
     }
 
     [HttpPut("{id}")]
-    public async Task<ActionResult<Destination>> Put(int id, Destination destination)
+    public async Task<ActionResult> Put(int id, Destination destination)
     {
       if(id!=destination.DestinationId)
       {
